@@ -74,8 +74,14 @@ class Main {
        When you use %d it will change out the value of the int. The first one wil go from the top, and then move itself downward. 
 
 
-                       ("%d %d %d %d", one, two, three, four) will then be   "one two three four"
-
+                            ("%d %d %d %d", one, two, three, four) will then be   "one two three four"
+                            
+                             
+                                               --  The diffrent types --
+                                               
+                                               %d : decimal verdi (int)
+                                               %s : streng verdi (String)
+                                               %c : Tegn verdi (char)
 
 
 
