@@ -1,0 +1,55 @@
+Once a variable has been declared, its value can be accessed and modified using the name. In the example below, we declare a variable and then print it:
+
+String dayOfWeek = "Monday";
+System.out.println(dayOfWeek); // Monday
+
+It is also possible to assign a value of one variable to another one:
+
+int one = 1;
+int num = one;
+System.out.println(num); // 1
+
+                                           
+                                              Feks
+                                             -------
+                                             
+Let's declare a variable named dayOfWeek and print its value before and after changing:
+
+String dayOfWeek = "Monday";
+System.out.println(dayOfWeek); 
+
+// It will print:  Monday
+
+dayOfWeek = "Tuesday";
+System.out.println(dayOfWeek); 
+
+//It will print:  Tuesday 
+
+---
+
+
+
+You can also: 
+Declaring several variables of the same type as a single statement:
+
+String language = "java", version = "8 or newer";
+
+--  or eks --
+
+int age; // declararing the variable
+age = 35; // giving the variable the value
+
+-- A brilliant example on this: --
+
+int a = 10;
+int b = 12;
+int c = b;
+int d = a;
+int e = c;
+
+Whats the value of e?
+
+Since e = c. And c is equal as b. Since b is 12, that makes e 12!
+
+
+
