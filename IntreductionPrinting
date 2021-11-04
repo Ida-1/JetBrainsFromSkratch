@@ -5,6 +5,25 @@ public class Main {
 
     }
 }
-
 */ When the program is run, the consol will print out whatever you put inbetween the (). 
    So now, it would have printed out; Hello Monkey. /*
+   
+-----------------------------------------------------------------------------------------------
+                   PRINTING TASK TASK
+You need to write a program to display the resulting grid of a Tic-Tac-Toe game.
+The grid is shown below.
+
+                          O X X
+                          O X O
+                          X O X
+			  
+class Main {
+    public static void main(String[] args) {
+        System.out.println("O X X");
+        System.out.println("O X O");
+        System.out.println("X O X");
+    }
+}
+
+*/ It isnt harder than that! */
+---------------------------------------------------------------------------------------------
