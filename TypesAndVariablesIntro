@@ -98,11 +98,37 @@ class Main {
                                                public static void main(String[] args) {
 
         
-                                                     int a = 512_343;
-                                                     int b = 343_123_1;
+                                                    final int a = 512343;
+                                                    final int b = 3431231;
 
                                                   System.out.println(a + b);
                                                 }
                                             } 
+                                            
+                                            Final means you cannot change the value after its been set. 
+                                            
+                                            
+---------------------------------------------------------------------------------------------------------------
+
+                         
+                         
+                                                      - TASK 3 -
+                                            
+                                            Change the code sample to make the output look the following way:
+                                            3 5 4
+                                                
+                                                
+                                              public class Main {
+
+                                                   public static void main(String[] args) {
+                                                      final int a = 3;
+                                                      final int b = 5;
+                                                      final int c = 4;
+
+                                                    System.out.println(a + " " + b + " " + c);
+                                               }
+                                           }  
+
+------------------------------------------------------------------------------------------------------
 
 
