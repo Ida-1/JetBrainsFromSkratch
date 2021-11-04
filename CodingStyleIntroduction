@@ -1,0 +1,11 @@
+Comments are something to add to make the code easier to read, and to make others mabye understand it better, or just to simply add notes. 
+Comments are also "invinseble" and is ignored by the compiler.
+
+Single line comment look like this: //This is a comment. 
+
+A Multi-line comments look like this:
+
+/* This is a single-line comment */
+        /*  This is an example of
+            a multi-line comment */
+----------------------------------------
