@@ -27,3 +27,32 @@ class Main {
 
 */ It isnt harder than that! */
 ---------------------------------------------------------------------------------------------
+                         TASK 2
+	 Write a program that prints the following text:
+
+WE NEED TO
+
+LEARN JAVA
+
+AS QUICKLY AS POSSIBLE
+
+
+class Main {
+    public static void main(String[] args) {
+        System.out.println("WE NEED TO");
+        System.out.println();
+        System.out.println("LEARN JAVA");
+        System.out.println();
+        System.out.println("AS QUICKLY AS POSSIBLE");
+    }
+}
+
+--------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
