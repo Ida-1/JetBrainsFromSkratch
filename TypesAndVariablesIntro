@@ -50,6 +50,32 @@ int e = c;
 Whats the value of e?
 
 Since e = c. And c is equal as b. Since b is 12, that makes e 12!
+--------
+              
+              -- TASK 1 --
+              
+Given four variables. Assign values to these variables.
+The variable one should be 1, two should be 2, three should be 3 and four should be 4.
+
+
+class Main {
+    public static void main(String[] args) {
+
+        // Assign values to these four variables
+        int one = 1;
+        int two = 2; 
+        int three = 3;
+        int four = 4;
+
+        System.out.println(String.format("%d %d %d %d", one, two, three, four));
+    }
+}
+ 
+       When you use %d it will change out the value of the int. The first one wil go from the top, and then move itself downward. 
+
+
+                       ("%d %d %d %d", one, two, three, four) will then be   "one two three four"
+
 
 
 
