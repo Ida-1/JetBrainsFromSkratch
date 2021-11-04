@@ -25,7 +25,7 @@ System.out.println(dayOfWeek);
 
 //It will print:  Tuesday 
 
----
+-----------------------------------------------------------------
 
 
 
@@ -50,7 +50,9 @@ int e = c;
 Whats the value of e?
 
 Since e = c. And c is equal as b. Since b is 12, that makes e 12!
---------
+
+
+----------------------------------------------------------------------------
               
               -- TASK 1 --
               
@@ -83,5 +85,24 @@ class Main {
                                                %s : streng verdi (String)
                                                %c : Tegn verdi (char)
 
+------------------------------------------------------------------------------------------------------------
+              
+              
+                                                       - TASK 2 -
+
+                       Given two variables a and b with invalid declarations. Add a type to them.
+                       
+                       
+                                           public class Main {
+
+                                               public static void main(String[] args) {
+
+        
+                                                     int a = 512_343;
+                                                     int b = 343_123_1;
+
+                                                  System.out.println(a + b);
+                                                }
+                                            } 
 
 
