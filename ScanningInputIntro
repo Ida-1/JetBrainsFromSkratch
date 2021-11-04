@@ -1,1 +1,109 @@
+Reading data with a scanner: 
+
+The simplest way to obtain data from the standard input is to use the standard class: Scanner.
+To use the scanner you must add to the code: 
+
+
+ 
+ //This goes to the top
+import java.util.Scanner; 
+
+
+//And this under the Public satic void. 
+Scanner scanner = new Scanner(System.in);   
+
+With this line, we create an object of Scanner class, 
+that enables us to use its methods. 
+
+
+There are two ways to read strings with a Scanner class. 
+If your wanted input is an integer number or a single word, you can use next() method.
+
+As an example: 
+
+ String name = scanner.next();
+System.out.println("Hello, " + name + "!");
+
+BUT
+
+If you want to it to scan and print more then one word, 
+you have to use the nextLine() method. 
+
+
+-- example of the diffrence --
+
+import java.util.Scanner; 
+
+public class Main {
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);  
+
+        String word1 = scanner.next(); // "This"
+        String line1 = scanner.nextLine(); // " is a simple" 
+        String word2 = scanner.next(); // "multiline"
+        String word3 = scanner.next(); // "input,"
+        String line2 = scanner.nextLine(); // "" 
+        
+        
+    }
+ }
+
+                                  ------------ TASK 1 -------------
+                                  
+                                 
+Write a program that reads three strings and outputs them in the reverse order, each in a new line.
+      
+      
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        String word1 = scanner.next(); // "Java"
+        String word2 = scanner.next(); // "Programming"
+        String word3 = scanner.next(); // "Language"
+        
+        System.out.println(word3);
+        System.out.println(word2);
+        System.out.println(word1); 
+        
+    }
+}
+
+------------------------------------------------------------
+
+
+              
+                               ----- TASK 2 -----
+Imagine that you are an HR manager at a restaurant and you need to hire a chef. To do that, you need to collect some data about the candidates.
+You have a special form for the candidates that includes 3 fields: first name, years of experience and cuisine preference.
+Your program should read all the words (or numbers) from the three lines 
+and output:
+
+"The form for first name is completed. We will contact you if we need a chef who cooks cuisine preference dishes and has years of experience years of experience." 
+
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        String name = scanner.next();
+        String experience = scanner.next();
+        String dishes = scanner.next();
+
+        System.out.print("The form for " + name + " is completed. We will contact you if we need a chef who cooks ");
+        System.out.println(dishes + " dishes and has " + experience + " years of experience.");
+    }
+}
+     (Println means next line.)
+      
+---------------------------------------------------------------------------------------------------------
+                               
+
+
 
