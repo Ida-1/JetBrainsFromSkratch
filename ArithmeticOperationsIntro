@@ -84,3 +84,81 @@ System.out.println(-10 * (3 + 4) / 2);
 
 this will print: -35
 
+-----------------------------------
+
+The forms of the assignment operator
+
+If you want to add some value to a variable. You may write something like this:
+
+int n = 10;
+n = n + 4; // 14               
+-- 
+
+The assignment operator = has several forms which combine
+it with an operation to avoid repeating the variable twice:
+
+int n = 10;
+n += 4; // 14
+
+There are a few other possible forms *=, /=, %= and some others.
+
+---
+
+Here is how this type of code should look like:
+
+
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int a = scanner.nextInt();
+        int b = scanner.nextInt();
+
+        int sum = a + b;
+
+        System.out.println(sum);
+    }
+}
+
+--- or this: ---
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+
+        long a = scanner.nextLong();
+        long b = scanner.nextLong();
+
+        long sum = a + b; ))
+        
+        System.out.println(sum);
+    }
+}
+
+-------------------------------------------
+
+--- Task --- 
+
+There are 2 squirelLs who wants to share their nuts with each other, equally
+Divide so they can split it.
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        int ekorn = scanner.nextInt();
+        int nuts = scanner.nextInt();
+        
+        System.out.println(nuts / ekorn);
+      
+    }
+}
+
