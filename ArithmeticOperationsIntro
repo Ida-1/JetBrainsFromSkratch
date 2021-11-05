@@ -57,4 +57,30 @@ This is a list of highest to lowest priorities;
     unary plus/minus
     multiplication, division
     addition, subtraction
----
+-----------------------
+
+                  Feks 
+
+System.out.println(2 + (-3) + 5 + (-8));
+
+it will print: -4
+
+------
+
+System.out.println (10 / (2 + 2) + 4 * 8);
+
+This will print: 34
+
+--
+
+System.out.println(2 + 4 * 5 - 10 / (2 + 1));
+
+This will print: 19
+
+--
+
+
+System.out.println(-10 * (3 + 4) / 2);
+
+this will print: -35
+
